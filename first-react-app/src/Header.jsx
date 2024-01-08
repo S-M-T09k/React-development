@@ -11,9 +11,9 @@ function Header() {
           <li>Media</li>
           <li>About</li>
           <li>Contact</li>
-          <hr />
         </ul>
       </nav>
+      <hr />
     </header>
   );
 

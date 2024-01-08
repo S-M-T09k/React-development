@@ -1,13 +1,15 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
-import Pokemon from "./pokemons.jsx";
+import Card from "./Card.jsx";
 
 function App() {
 
   return (
     <>
       <Header></Header>
-      <Pokemon></Pokemon>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
       <Footer></Footer>
     </>
   );
