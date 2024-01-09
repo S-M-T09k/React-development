@@ -1,3 +1,11 @@
+.centerDiv{
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(auto-fit, minmax(100px, auto)); 
+  justify-items: center; 
+  align-items: center; 
+}
+
 .card{
   border: 1px solid #ff5555;
   border-radius: 10px;
