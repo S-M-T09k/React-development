@@ -34,3 +34,16 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: firebrick;
 }
+
+.student{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ff5555;
+  font-size: 2em;
+  padding: 5px;
+  margin: 4px;
+  border: 1px solid purple;
+}
+
+.student p{
+  margin: 0;
+}
