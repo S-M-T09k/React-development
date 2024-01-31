@@ -5,6 +5,7 @@ import Pokemon from "./Pokemons.jsx";
 import Button from './Button.jsx';
 import Student from './Student.jsx'
 import Test from './Test.jsx';
+import UserGreeting from './UserGreeting.jsx';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
     <>
       <Header></Header>
       <Card></Card>
+      <UserGreeting isLoggedIn={true} userName={"SMT"}></UserGreeting>
+      <UserGreeting isLoggedIn={false} userName={"Jinn"}></UserGreeting>
       <Pokemon></Pokemon>
       <Button></Button>
       <Student name="Mike" age={5} isStudent={false}></Student>

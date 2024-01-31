@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Test (props) {
+const Test = (props) => {
 
   const something = props.something;
 
