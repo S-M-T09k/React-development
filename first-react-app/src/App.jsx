@@ -6,8 +6,11 @@ import Button from './Button.jsx';
 import Student from './Student.jsx'
 import Test from './Test.jsx';
 import UserGreeting from './UserGreeting.jsx';
+import FriendList from './FriendList.jsx';
+// import Friend from './FriendList.jsx';
 
 function App() {
+
   return (
 
     <>
@@ -21,11 +24,13 @@ function App() {
       <Student name="Melisa" age={10} isStudent={true}></Student>
       <Student name={"Traisa"} age={14} isStudent={true}></Student>
       <Student age={5} isStudent={true}></Student>
+      <FriendList></FriendList>
       <Test something={false}></Test>
       <Footer></Footer>
     </>
 
   );
+
 }
 
 export default App

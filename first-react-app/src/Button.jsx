@@ -10,7 +10,7 @@ function Button() {
     border: '#00e000 none',
     borderRadius: '10px',
     cursor: 'pointer',
-  }
+  };
   
   return(
 
