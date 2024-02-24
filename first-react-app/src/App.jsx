@@ -19,12 +19,13 @@ function App() {
       <UserGreeting isLoggedIn={true} userName={"SMT"}></UserGreeting>
       <UserGreeting isLoggedIn={false} userName={"Jinn"}></UserGreeting>
       <Pokemon></Pokemon>
-      <Button></Button>
+      <Button value="Click me and nothin"></Button>
       <Student name="Mike" age={5} isStudent={false}></Student>
       <Student name="Melisa" age={10} isStudent={true}></Student>
       <Student name={"Traisa"} age={14} isStudent={true}></Student>
       <Student age={5} isStudent={true}></Student>
       <FriendList></FriendList>
+      <Button value="click events"></Button>
       <Test something={false}></Test>
       <Footer></Footer>
     </>

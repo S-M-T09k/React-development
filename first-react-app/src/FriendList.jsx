@@ -33,7 +33,7 @@ const FriendList = () => {
 
   friends.sort((a, b) => a.name.localeCompare(b.name));
 
-  const friendList = friends.map(friend =>
+  const friendList = friends.map((friend) =>
     <li key={friend.id}>
       {friend.name}: <b>{friend.age}</b> <br />
       {friend.isCloseFriend ? `${friend.pronoun} is a very good friend` : `${friend.pronoun} is a friend`}
